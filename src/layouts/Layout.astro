@@ -1,8 +1,8 @@
 ---
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import { ViewTransitions } from "astro:transitions";
-import "@fontsource/poppins";
+import '@fontsource/poppins';
+import { ViewTransitions } from 'astro:transitions';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 
 interface Props {
   title: string;
@@ -43,7 +43,7 @@ const { description, title } = Astro.props;
   }
 
   html {
-    font-family: "Poppins", system-ui, sans-serif;
+    font-family: 'Poppins', system-ui, sans-serif;
     scroll-behavior: smooth;
   }
 

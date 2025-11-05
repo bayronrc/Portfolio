@@ -1,29 +1,27 @@
 ---
-import Layout from "@/layouts/Layout.astro"
+import Layout from '@/layouts/Layout.astro';
 
-import AboutMe from "@/components/AboutMe.astro"
-import Badge from "@/components/Badge.astro"
-import Briefcase from "@/components/icons/BriefCase.astro";
-import CodeIcon from "@/components/icons/Code.astro"
-import Experience from "@/components/Experience.astro"
-import GitHubIcon from "@/components/icons/GitHub.astro"
-import LinkedInIcon from "@/components/icons/LinkedIn.astro"
-import MailIcon from "@/components/icons/MailIcon.astro";
-import ProfileCheck from "@/components/icons/ProfileCheck.astro";
-import Projects from "@/components/Projects.astro"
-import SectionContainer from "@/components/SectionContainer.astro"
-import SocialPill from "@/components/SocialPill.astro"
+import AboutMe from '@/components/AboutMe.astro';
+import Badge from '@/components/Badge.astro';
+import Experience from '@/components/Experience.astro';
+import Briefcase from '@/components/icons/BriefCase.astro';
+import CodeIcon from '@/components/icons/Code.astro';
+import GitHubIcon from '@/components/icons/GitHub.astro';
+import LinkedInIcon from '@/components/icons/LinkedIn.astro';
+import MailIcon from '@/components/icons/MailIcon.astro';
+import ProfileCheck from '@/components/icons/ProfileCheck.astro';
+import Projects from '@/components/Projects.astro';
+import SectionContainer from '@/components/SectionContainer.astro';
+import SocialPill from '@/components/SocialPill.astro';
+import Tecnologies from '@/components/Technologies.astro';
 ---
 
-<Layout
-  title="Porfolio de midudev - Desarrollador y Programador Web con 15 años de experiencia"
-  description="Contrata a midudev para crear tu aplicación web o móvil. Desarrollador Web y Creador de Contenido. Especializado en crear aplicaciones únicas."
->
+<Layout title="Portfoio Bayron andres rosero csastro" description="">
   <main class="px-4">
     <SectionContainer class="py-44 pb-32">
       <img
-        class="rounded-full size-12 mb-4"
-        src="https://pbs.twimg.com/profile_images/475014464081649664/kPfGJsON_400x400.png"
+        class="rounded-full size-36 mb-4"
+        src="/src/images/1722301019849.jfif"
         alt="midudev photo"
       />
       <h1
@@ -38,34 +36,19 @@ import SocialPill from "@/components/SocialPill.astro"
           <Badge>Disponible para trabajar</Badge>
         </a>
       </h1>
-      <h2
-        class="text-xl lg:text-2xl text-balance max-w-[700px] text-black dark:text-white"
-      >
-        <span>+15 años de experiencia.</span><span
-          class="text-yellow-800 dark:text-yellow-200"
-        >
-          Desarrollador Web y Creador de Contenido</span
-        >
-        .<span class="text-red-800 dark:text-red-200">
-          De Barcelona, España</span
-        >.
-        <span class="text-sky-800 dark:text-sky-200"
-          >Especializado en crear aplicaciones únicas.</span
-        >
-      </h2>
-
+      <Tecnologies />
       <nav class="flex gap-4 mt-8 flex-wrap">
-        <SocialPill href="https://linkedin.com/in/midudev">
+        <SocialPill href="https://linkedin.com/in/bayron">
           <LinkedInIcon class="size-4 md:size-6" />
           LinkedIn
         </SocialPill>
-        <SocialPill href="https://github.com/midudev">
+        <SocialPill href="https://github.com/bayronrc">
           <GitHubIcon class="size-4 md:size-6" />
           GitHub
         </SocialPill>
-        <SocialPill href="mailto:miduga@gmail.com">
+        <SocialPill href="mailto:rysh3n98@gmail.com">
           <MailIcon class="size-4 md:size-6" />
-          miduga@gmail.com
+          ryshen98@outlook.com
         </SocialPill>
       </nav>
     </SectionContainer>
