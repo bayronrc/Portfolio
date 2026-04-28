@@ -1,6 +1,5 @@
 ---
 import '@fontsource/poppins';
-import { ViewTransitions } from 'astro:transitions';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 
@@ -21,7 +20,6 @@ const { description, title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    <ViewTransitions />
   </head>
 
   <body class="relative text-black dark:text-white">
